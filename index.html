@@ -25,6 +25,7 @@ body {
   text-align: center;
   padding: 10px;
   font-weight: 600;
+  font-size: 14px;
 }
 
 /* Header */
@@ -67,36 +68,46 @@ header button {
 }
 
 .hero-text h1 {
-  font-size: 38px;
-  margin-bottom: 20px;
+  font-size: 42px;
+  margin-bottom: 15px;
+  line-height: 1.3;
 }
 
-.hero-text span {
+.highlight {
   color: #5a67ff;
 }
 
-.hero-text p {
+.sub-headline {
+  font-size: 18px;
   color: #555;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
+/* Bullet Points */
 .hero-text ul {
   list-style: none;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .hero-text li {
   margin-bottom: 10px;
+  font-size: 15px;
 }
 
+/* CTA */
 .cta {
   background: #5a67ff;
   color: white;
-  padding: 14px 20px;
+  padding: 14px 22px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.3s;
+}
+
+.cta:hover {
+  background: #3f4bd8;
 }
 
 /* Hero Image */
@@ -200,8 +211,16 @@ footer {
 <!-- Hero -->
 <section class="hero">
   <div class="hero-text">
-    <h1>🔥 Build Client Websites Faster — Get <span>2200 Templates</span></h1>
-    <p>Build websites faster without designing from scratch. Covers every niche.</p>
+
+    <!-- NEW HEADLINE -->
+    <h1>
+      ₹299 me <span class="highlight">High-Converting Website System</span>
+    </h1>
+
+    <!-- SUB HEADLINE -->
+    <div class="sub-headline">
+      Without Coding apni website 1 din me ready karo
+    </div>
 
     <ul>
       <li>✔ 1700+ WordPress Templates</li>
@@ -210,11 +229,11 @@ footer {
       <li>✔ No Coding Required</li>
     </ul>
 
-    <button class="cta">One-Time Price: ₹399</button>
+    <button class="cta">One-Time Price: ₹299</button>
   </div>
 
   <div class="hero-img">
-    <img src="https://wordpresstemplates.netlify.app/megapromotion" alt="">
+    <img src="https://via.placeholder.com/450x500" alt="Templates">
   </div>
 </section>
 
@@ -244,7 +263,7 @@ footer {
 <section class="pricing">
   <div class="price-box">
     <h2>Limited Time Offer</h2>
-    <div class="price">₹399</div>
+    <div class="price">₹299</div>
     <button class="buy-btn">BUY NOW</button>
   </div>
 </section>
